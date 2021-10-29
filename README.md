@@ -10,65 +10,65 @@ This project was done for the Makers Academy Bootcamp Week 8 Individual Challeng
 
 Project completed independently.
 
-## User Stories:
+## User Stories
 
-```
+```text
 As a staff member
 In order to distinguish between meeting rooms
 I would like my meeting room to have a name
 ```
 
-```
+```text
 As an office manager
 So that staff can coordinate meetings
 I would like to add a meeting room to the office
 ```
 
-```
+```text
 As an office manager
 So that I can manage meeting rooms
 I would like to list all the meeting rooms in the office
 ```
 
-```
+```text
 As a staff member
 In order to have meeting,
 I would like to check if the meeting room is available or not (true or false)
 ```
 
-```
+```text
 As a staff member
 In order to have a meeting,
 I would like to be able to enter the meeting room and this should make it unavailable
 ```
 
-```
+```text
 As a staff member
 In order to end a meeting
 I would like to be able to leave the meeting room and this should make it available again
 ```
 
-```
+```text
 As a staff member
 So that I can see where to have my meeting
 I would like to be able to see a list of available rooms in the office
 ```
 
-```
+```text
 As a staff member
 So that I can avoid interrupting a meeting
 I would like an error if I try to use a room that has already been entered
 ```
 
-#### Stretch user stories
+### Stretch user stories
 
-```
+```text
 As an office manager
 So that I can find out when a room becomes available
 I would like to receive a text message whenever a meeting room becomes available again
 ```
 
-```
+```text
 As an office manager
 So that I can have visibility of how the rooms are being used
 I would like to see the name of the meeting and the name of the team that is using the room
@@ -100,7 +100,7 @@ In code review we'll be hoping to see:
 - [x] Each meeting room has a distinct name
 - [x] Add a meeting room to the office
 - [x] List all meeting rooms in the office
-- [ ] Check if the meeting room is available or not (true or false)
+- [x] Check if the meeting room is available or not (true or false)
 - [ ] Enter the meeting room & it becomes unavailable
 - [ ] Leave the meeting room & it becomes available again
 - [ ] See a list of available meeting rooms in the office
