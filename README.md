@@ -92,3 +92,23 @@ In code review we'll be hoping to see:
 - High [Test coverage](https://github.com/makersacademy/course/blob/master/pills/test_coverage.md) (>95% is good)
 - The code is elegant: every class has a clear responsibility, methods are short etc.
 - Commits are regular and scoped
+
+## Project To Do's
+
+### Main
+
+- [x] Each meeting room has a distinct name
+- [x] Add a meeting room to the office
+- [x] List all meeting rooms in the office
+- [ ] Check if the meeting room is available or not (true or false)
+- [ ] Enter the meeting room & it becomes unavailable
+- [ ] Leave the meeting room & it becomes available again
+- [ ] See a list of available meeting rooms in the office
+- [ ] Raise an error if try to use unavailable room
+
+### Stretch
+
+Office Manager can:
+
+- [ ] receive a text message whenever a meeting room becomes available again
+- [ ] see the name of the meeting and the name of the team that is using the room

@@ -18,6 +18,14 @@ public class MeetingRoomTest {
   }
 
   @Test
+  public void testRoomsHaveDistinctNames() {
+    MeetingRoom room = new MeetingRoom();
+    room.addRoom("Shukaku");
+    room.addRoom("Shukaku");
+    assertTrue(room.listRooms().size() == 1);
+  }
+
+  @Test
   public void testListRooms() {
     MeetingRoom room = new MeetingRoom();
     room.addRoom("Shukaku");
