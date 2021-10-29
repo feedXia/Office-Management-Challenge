@@ -16,4 +16,19 @@ public class AvailabilityTest {
     Availability room = new Availability(new MeetingRoom("Shukaku"));
     assertTrue(room.isAvailable(Availability.roomName));
   }
+
+  @Test
+  public void testInUse() {
+    Availability room = new Availability(new MeetingRoom("Shukaku"));
+    room.inUse("Shukaku");
+    assertFalse(room.isAvailable(Availability.roomName));
+  }
+
+  @Test
+  public void testLeaveRoom() {
+    Availability room = new Availability(new MeetingRoom("Shukaku"));
+    room.inUse("Shukaku");
+    room.leaveRoom("Shukaku");
+    assertTrue(room.isAvailable(Availability.roomName));
+  }
 }

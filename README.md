@@ -101,8 +101,8 @@ In code review we'll be hoping to see:
 - [x] Add a meeting room to the office
 - [x] List all meeting rooms in the office
 - [x] Check if the meeting room is available or not (true or false)
-- [ ] Enter the meeting room & it becomes unavailable
-- [ ] Leave the meeting room & it becomes available again
+- [x] Room is not available when in use (availability = false)
+- [x] Room is available again when user leaves (availability = true)
 - [ ] See a list of available meeting rooms in the office
 - [ ] Raise an error if try to use unavailable room
 
