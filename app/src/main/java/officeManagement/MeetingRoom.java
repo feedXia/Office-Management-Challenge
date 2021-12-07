@@ -1,11 +1,13 @@
 package officeManagement;
 
 import java.util.ArrayList;
+import java.util.jar.Attributes.Name;
 
 class MeetingRoom {
   static ArrayList<String> roomList = new ArrayList<String>();
 
   private String name;
+  boolean available;
 
   // Constructor
   public MeetingRoom(String name) {
@@ -43,6 +45,13 @@ class MeetingRoom {
   public static ArrayList<String> listRooms() {
     System.out.printf("List of all the meeting rooms in the office: %s \n", roomList);
     return roomList;
+  }
+
+  public boolean availability(Availability availability) {
+    name = getRoomName();
+    Availability available = new Availability(name);
+    roomAvailable = Availability.isAvailable(name);
+    return true;
   }
 
 }
